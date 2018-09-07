@@ -1,0 +1,1 @@
+Age = int(input("Vul je leeftijd in: "))
