@@ -1,0 +1,1 @@
+print(ord('I'),ord(' '),ord('a'),ord('m'),ord(' '),ord('2'),ord('4'))
