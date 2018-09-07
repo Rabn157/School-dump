@@ -1,5 +1,5 @@
 num1 = float(input('Vul het eerste nummer in: '))
-num2 = float(input('Vul het eerste nummer in: '))
-num3 = float(input('Vul het eerste nummer in: '))
+num2 = float(input('Vul het tweede nummer in: '))
+num3 = float(input('Vul het derde nummer in: '))
 result = (num1*num2*num3)
 print(num1,'x',num2,'x',num3,'=',format(result, '.3f'))
