@@ -13,7 +13,13 @@
 # three grains of wheat on the third square
 
 
-wheat_grain = int(input("Enter the amount of grain's: "))
-wheat_total_grain = (wheat_grain * 2 * 2 * 2)
-wheat_total_pounds = (wheat_total_grain / 7000)
-print(wheat_total_grain, "grain's equal to", wheat_total_pounds, 'pounds')
+wheat_grain = 1
+cube = 0
+while cube < 64:
+    wheat_grain = wheat_grain * 2
+    cube += 1
+    
+wheat_total_pounds = (wheat_grain/ 7000)
+print('The inventor will receive: ')
+print(format(wheat_grain, ',.2f'), "grain's equal to", format(wheat_total_pounds, ',.2f'), 'pounds')
+
