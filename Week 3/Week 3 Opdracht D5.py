@@ -19,6 +19,7 @@ minutes_lived = age_user * 365 * 24 * 60
 seconds_lived = minutes_lived * 60
 heart_rate = seconds_lived * seconds_lived
 bpm_total = minutes_lived * bpm
+
 print('your breaths per minute is: ', bpm, '\n'
 , "You've lived for: ", format(minutes_lived,',.1f'),' minutes','\n'
 ,"Which means you've had: ",format(bpm_total,',.1f'),' breaths','\n'
